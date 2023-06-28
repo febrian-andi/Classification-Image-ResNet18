@@ -1,2 +1,5 @@
-# new
-new
+# ResNet-18
+ResNet18 is a type of Convolutional Neural Network (CNN) architecture which was first introduced in 2015. The ResNet18 architecture can be used in image classification tasks with a large number of classes. ResNet-18 consists of 16 convolution layers, 2 downsampling layers, and several fully connected layers. The size of the ResNet input image is 224×224, except for the first convolution layer, the size of the convolution kernel is 7×7, and the other layers are 3×3. After averaging over the feature maps of the last convolution layers, the eigenvectors are obtained with full connection, and then normalized using Softmax to obtain the classification probabilities. </br>
+</br>
+
+ResNet18 adalah salah satu jenis arsitektur Convolutional Neural Network (CNN) yang pertama kali diperkenalkan pada tahun 2015. Arsitektur ResNet18 dapat digunakan pada tugas klasifikasi gambar dengan jumlah kelas yang cukup besar. ResNet-18 terdiri dari 16 lapisan konvolusi (convolution layers) , 2 lapisan downsampling (downsampling layers), dan beberapa lapisan terhubung penuh (fully connected layers). Ukuran gambar input ResNet adalah 224×224, kecuali untuk lapisan konvolusi pertama, ukuran kernel konvolusi adalah 7×7, dan lapisan lainnya adalah 3×3. Setelah dilakukanaverage pooling pada peta fitur dari lapisan konvolusi terakhir, vektor eigen diperoleh dengan fully connection, dan kemudian dinormalisasi menggunkan Softmax untuk mendapatkan probabilitas klasifikasi.
